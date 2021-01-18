@@ -6,7 +6,7 @@ namespace Assignment4_EmplyeeSystem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Employee Intouch = new Employee("Intouch",new DateTime(2004,7,6),"CEO",1000000)
         }
     }
 }

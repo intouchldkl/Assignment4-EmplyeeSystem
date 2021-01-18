@@ -22,9 +22,14 @@ namespace Assignment4_EmplyeeSystem
             this.salary = salary;
             this.DOB = DOB;
 
-            // employeeCount = employeeCount + 1; the same as
+           
+        }
+        public static int GetNumberOfEmployee()
+        {
+            employeeCount = employeeCount + 1;
             //employeeCount +=1;
-            employeeCount++;
+            //employeeCount++;
+            return employeeCount;
         }
         public double GetMonthlySalary()
         {
